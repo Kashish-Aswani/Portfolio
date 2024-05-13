@@ -81,7 +81,7 @@ nav ul li a:hover{
   padding-top: 120px;
 }
 #element{
-  color: rgb(255, 155, 5);;
+  color: rgb(255, 155, 5);
 }
 
 .about h1{
@@ -91,8 +91,10 @@ nav ul li a:hover{
   font-weight: bolder;
   text-transform: capitalize;
   padding-bottom: 20px;
+  color: rgb(255, 155, 5);
 }
 .about p{
+  /* padding-top: 50px; */
   padding-left: 50px;
   font-size: 30px;
   padding-right: 50px;
@@ -103,8 +105,9 @@ nav ul li a:hover{
 .skills h2, .certifications h2, .contact h2{
     font-size: 45px;
   font-weight: bolder;
-  padding-top: 100px;
+  padding-top: 99px;
   text-align: center;
+  color: rgb(255, 155, 5);;
 }
 
 .skills, .certifications, .contact {
@@ -182,6 +185,7 @@ nav ul li a:hover{
     font-size: 18px;
     cursor: pointer;
     /* transition: background-color 0.3s ease; */
+    margin-bottom: 50px;
 }
 
 .contact input[type="submit"]:hover {
